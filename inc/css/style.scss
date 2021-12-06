@@ -280,6 +280,11 @@ p, a {
 }
 @media screen and (max-width: 375px) {
 
+  .main {
+    position: relative;
+    overflow: hidden;
+
+
   .service {
     background-position: 50% 30%;
     background-repeat: no-repeat;
@@ -347,5 +352,6 @@ p, a {
     &__inner {
       max-width: 320px;
     }
+  }
   }
 }
