@@ -278,7 +278,37 @@ p, a {
   display: block;
   overflow: hidden;
 }
-@media screen and (max-width: 375px) {
+@media all and (max-width: 768px) {
+  .main {
+    position: relative;
+    overflow: hidden;
+
+    .offer {
+      width: auto;
+
+      &__article {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      &__title {
+            padding-left: 60px;
+      }
+      &__text {
+            padding-left: 60px;
+            padding-right: 280px;
+      }
+      &__img {
+            right: -30%;
+            top: -45%;
+            max-width: 100%;
+      }
+    }
+}
+ }
+
+
+@media screen and (max-width: 425px) {
 
   .main {
     position: relative;
@@ -324,6 +354,7 @@ p, a {
     &__title {
       font-size: 22px;
       padding-right: 150px;
+      padding-left: 40px;
     }
 
     &__text {

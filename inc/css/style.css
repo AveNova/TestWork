@@ -46,7 +46,13 @@ p, a { font-family: 'Proxima Nova Regular'; letter-spacing: 0.32px; }
 
 .title-word { display: block; overflow: hidden; }
 
-@media screen and (max-width: 375px) { .main { position: relative; overflow: hidden; }
+@media all and (max-width: 768px) { .main { position: relative; overflow: hidden; }
+  .main .offer { width: auto; }
+  .main .offer__article { width: 100%; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+  .main .offer__title { padding-left: 60px; }
+  .main .offer__text { padding-left: 60px; padding-right: 280px; }
+  .main .offer__img { right: -30%; top: -45%; max-width: 100%; } }
+@media screen and (max-width: 425px) { .main { position: relative; overflow: hidden; }
   .main .service { background-position: 50% 30%; background-repeat: no-repeat; background-size: cover; }
   .main .service__title { padding-top: 91px; }
   .main .service__inner { max-width: 320px; padding-bottom: 181px; }
@@ -54,7 +60,7 @@ p, a { font-family: 'Proxima Nova Regular'; letter-spacing: 0.32px; }
   .main .offer { width: auto; }
   .main .offer__inner { -ms-flex-wrap: wrap; flex-wrap: wrap; }
   .main .offer__info { width: 100%; margin-top: 195px; background-size: contain; background-position: left bottom; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-  .main .offer__title { font-size: 22px; padding-right: 150px; }
+  .main .offer__title { font-size: 22px; padding-right: 150px; padding-left: 40px; }
   .main .offer__text { font-size: 16px; padding: 0 100px 0 40px; }
   .main .offer__article { -ms-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 10px; }
   .main .offer__btn { width: 280px; }
