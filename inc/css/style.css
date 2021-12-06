@@ -1,31 +1,31 @@
 * { margin: 0; padding: 0; }
 
-@font-face { font-family: 'Proxima Nova Regular'; src: url("../font/ProximaNova-Regular.eot"); src: url("../font/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../font/ProximaNova-Regular.woff") format("woff"), url("../font/ProximaNova-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'Proxima Nova Bold'; src: url("../font/ProximaNova-Bold.eot"); src: url("../font/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../font/ProximaNova-Bold.woff") format("woff"), url("../font/ProximaNova-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Proxima Nova Regular'; src: url("inc/font/ProximaNova-Regular.eot"); src: url("inc/font/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("inc/font/ProximaNova-Regular.woff") format("woff"), url("inc/font/ProximaNova-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Proxima Nova Bold'; src: url("inc/font/ProximaNova-Bold.eot"); src: url("inc/font/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("inc/font/ProximaNova-Bold.woff") format("woff"), url("inc/font/ProximaNova-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 h1 { font-family: 'Proxima Nova Bold'; color: #fff; font-size: 48px; font-weight: 900; text-transform: uppercase; }
 
 h2, h3 { font-family: 'Proxima Nova Regular'; letter-spacing: 0.64px; }
 
 p, a { font-family: 'Proxima Nova Regular'; letter-spacing: 0.32px; }
 
-.service { background: url(../img/main-bg-icon.svg), #233148; background-position: 50% 30%; background-repeat: no-repeat; position: relative; }
+.service { background: url(inc/img/main-bg-icon.svg), #233148; background-position: 50% 30%; background-repeat: no-repeat; position: relative; }
 @media screen and (max-width: 425px) { .service { background-size: cover; } }
 .service__title { padding-top: 180px; margin-bottom: 72px; }
-.service__title:before { content: ""; background: url(../img/flag.svg); background-repeat: no-repeat; width: 30px; height: 30px; display: block; }
-.service__inner { background: url(../img/line.svg); background-repeat: repeat-y; background-position: center; max-width: 1170px; margin: 0 auto; padding-bottom: 294px; border: 1px solid rgba(217, 223, 230, 0.2); border-top: none; border-bottom: none; }
+.service__title:before { content: ""; background: url(inc/img/flag.svg); background-repeat: no-repeat; width: 30px; height: 30px; display: block; }
+.service__inner { background: url(inc/img/line.svg); background-repeat: repeat-y; background-position: center; max-width: 1170px; margin: 0 auto; padding-bottom: 294px; border: 1px solid rgba(217, 223, 230, 0.2); border-top: none; border-bottom: none; }
 .service__rows { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: distribute; justify-content: space-around; }
 .service__box { width: 37%; padding: 50px 50px 50px 100px; }
 .service__icon { width: 52px; height: 52px; display: block; background-repeat: no-repeat; margin-bottom: 25px; }
-.service__icon.digital-icon { background: url(../img/service-icon-1.svg); }
-.service__icon.trust-icon { background: url(../img/service-icon-2.svg); }
-.service__icon.search-icon { background: url(../img/service-icon-3.svg); }
-.service__icon.user-icon { background: url(../img/service-icon-4.svg); }
+.service__icon.digital-icon { background: url(inc/img/service-icon-1.svg); }
+.service__icon.trust-icon { background: url(inc/img/service-icon-2.svg); }
+.service__icon.search-icon { background: url(inc/img/service-icon-3.svg); }
+.service__icon.user-icon { background: url(inc/img/service-icon-4.svg); }
 .service__iconTitle { color: #fff; font-weight: 700; font-size: 32px; padding-bottom: 50px; }
 .service__iconText { color: #8796AE; font-weight: 300; font-size: 18px; line-height: 28px; }
 
 .offer { width: calc(50% + 586px); background: #1F65D9; top: -100px; position: relative; }
 .offer__inner { max-width: 1170px; background: #1F65D9; width: 100%; margin-left: auto; margin-right: 0; bottom: -16%; z-index: 99; display: -webkit-box; display: -ms-flexbox; display: flex; }
-.offer__info { background: url(../img/second-bg-icon.svg); background-repeat: no-repeat; margin-top: 72px; width: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+.offer__info { background: url(inc/img/second-bg-icon.svg); background-repeat: no-repeat; margin-top: 72px; width: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
 .offer__article { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; margin-bottom: 45px; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 .offer__title { color: #fff; font-size: 32px; -ms-flex-item-align: start; align-self: flex-start; padding-right: 63px; }
 .offer__text { font-size: 24px; line-height: 24px; color: #fff; margin-top: 45px; -ms-flex-item-align: end; align-self: flex-end; padding-left: 98px; }
@@ -39,8 +39,8 @@ p, a { font-family: 'Proxima Nova Regular'; letter-spacing: 0.32px; }
 
 .search__inner { overflow: hidden; }
 .search__title { color: #000; padding-top: 180px; margin-bottom: 72px; overflow: hidden; }
-.search__title:before { content: ""; background: url(../img/flag.svg); background-repeat: no-repeat; width: 30px; height: 30px; display: block; }
-.search__inner { background: url(../img/line.svg); background-repeat: no-repeat; background-position: center; max-width: 1170px; margin: 0 auto; padding-bottom: 294px; border: 1px solid rgba(217, 223, 230, 0.2); border-top: none; border-bottom: none; }
+.search__title:before { content: ""; background: url(inc/img/flag.svg); background-repeat: no-repeat; width: 30px; height: 30px; display: block; }
+.search__inner { background: url(inc/img/line.svg); background-repeat: no-repeat; background-position: center; max-width: 1170px; margin: 0 auto; padding-bottom: 294px; border: 1px solid rgba(217, 223, 230, 0.2); border-top: none; border-bottom: none; }
 
 .title-active .title-offset { display: block; }
 
@@ -66,5 +66,4 @@ p, a { font-family: 'Proxima Nova Regular'; letter-spacing: 0.32px; }
   .main .offer__btn { width: 280px; }
   .main .offer__img { max-width: 100%; top: -10%; right: -30%; }
   .main .search__inner { max-width: 320px; } }
-
 /*# sourceMappingURL=style.css.map */
